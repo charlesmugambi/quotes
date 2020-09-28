@@ -17,8 +17,8 @@ A user should be able to;
 |A user leaves the text area empty | Nothing is inputted | Nothing is displayed |
 | A user wants to add a new quote | Author name, quote, publish date and their name | The app saves the details and the number of quotes increases by 1|
 |A user wants to delete a quote | Click the delete button | The number of quotes decreases by 1 |
-|A user upvotes a quote | Click upvote button | Number of upvotes on that quote increase by 1 |
-|A user downvotes a quote | Click downvote button | Number of downvotes on that quote increase by 1 |
+|A user upvotes a quote | Click like button | Number of likes on that quote increase by 1 |
+|A user downvotes a quote | Click dislike button | Number of dislikes on that quote increase by 1 |
 |A user wants to view additional quote details | Click Quote Details button | Toggle effect kicks in and additional details are displayed |
     
 ## Setup instructions
