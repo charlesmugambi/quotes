@@ -9,9 +9,9 @@ import { Quote } from '../quote'
 export class QuotesComponent implements OnInit {
   //Trending quotes displayed on Homepage
   quotes = [
-    new Quote(0, 'Get Rich or Die Trying', '"50" Cent', new Date(2002, 3, 14), 'Stamura', 0, 0),
-    new Quote(1, 'The Dream is Free but the Hustle is sold separately', 'Unknown', new Date(1992, 7, 21), 'Moringa', 0, 0),
-    new Quote(2, 'Life is what happens when you are busy making other plans', 'John Lennon', new Date(1999, 11, 28), 'Mchungcheng', 0, 0),
+    new Quote(0, '“Two things are infinite: the universe and human stupidity; and I am not sure about the universe.”', 'Albert Einstein', new Date(1940, 3, 14), 'Albert Einstein', 0, 0),
+    new Quote(1, '“Always forgive your enemies; nothing annoys them so much.”', ' Oscar Wilde', new Date(1840, 7, 21), '', 0, 0),
+    new Quote(2, '“I am selfish, impatient and a little insecure. I make mistakes, I am out of control and at times hard to handle. But if you can not handle me at my worst, then you sure as hell do not deserve me at my best.”', 'Marilyn Monroe', new Date(1959, 11, 28), 'Marilyn Monroe', 0, 0),
   ]
 
   toggleDetails(index) {
