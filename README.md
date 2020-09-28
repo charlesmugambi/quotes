@@ -1,27 +1,42 @@
-# Quotes
+# Charles' Quotes
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.3.
+## Description
+An interactive application that allows users to create quotes. Other users can like or dislike a quote depending on whether the quote is terrible or inspirational.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Features
+A user should be able to;
+1. Create a new quote.
+2. dislike or like a quote.
+3. Delete a quote
+4. See the number of upvotes and number of downvotes for each quote.
 
-## Code scaffolding
+## BDD
+| BEHAVIOUR                            | INPUT EXAMPLE                           | OUTPUT EXAMPLES       |
+|--------------------------------------|:------------------------------------:|--------------------------|
+|A user leaves the text area empty | Nothing is inputted | Nothing is displayed |
+| A user wants to add a new quote | Author name, quote, publish date and their name | The app saves the details and the number of quotes increases by 1|
+|A user wants to delete a quote | Click the delete button | The number of quotes decreases by 1 |
+|A user upvotes a quote | Click like button | Number of likes on that quote increase by 1 |
+|A user downvotes a quote | Click dislike button | Number of dislikes on that quote increase by 1 |
+|A user wants to view additional quote details | Click Quote Details button | Toggle effect kicks in and additional details are displayed |
+    
+## Setup instructions
+    Install Nodejs and angular using npm in the terminal
+    From Git Hub,clone this repository
+    Change directory to quotes-IP by running the command $cd quotes-IP
+    Open the application by running $ng serve --o
+    Type and save your favorite quote(s)
+    If opened on an editor, the app will automatically reload if you change any of the source files.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies 
+`HTML5`, `CSS`, `JavaScript`, `Bootstrap`, `Typescript`, `Angular CLI`, 
 
-## Build
+## Known Bugs
+No known bugs at the moment
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Author(s) information
+Charles Mugambi Micheni
+### License
+MIT
+Copyright (c)2020 **Charles Mugambi**
